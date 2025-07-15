@@ -1,11 +1,11 @@
-**Recommendation Engines in NLP**
+# **Recommendation Engines in NLP**
 
-**Introduction:**
+### **Introduction:**
 
 A Recommendation System is an algorithm that suggests items to users based on their preferences or behaviors.  
 Applications such as Movies (Netflix) , Products (Amazon) , Songs (Spotify) , News articles , Job listings, friends (LinkedIn/Facebook)
 
-**Types of Recommendation Algorithms:**
+### **Types of Recommendation Algorithms:**
 
 * Content-Based Filtering  
 * Collaborative Filtering  
@@ -14,38 +14,38 @@ Applications such as Movies (Netflix) , Products (Amazon) , Songs (Spotify) , Ne
 * Hybrid Recommendation
 
 
-**1\. Content-Based Filtering:**
+### **1\. Content-Based Filtering:**
 
 Recommends items similar to what the user liked in the past.  
 Consider an example If you liked "Inception", the system might recommend "Interstellar" (both are sci-fi).
 
-**How it works**:
+### **How it works**:
 
 * Uses **item features** (e.g., genre, keywords, description)  
 * Creates a **profile of user preferences**  
 * Recommends based on **similarity**
 
-**2\. Collaborative Filtering:**
+### **2\. Collaborative Filtering:**
 
 Recommends items based on what similar users liked.
 
 There are two subtypes:
 
-**a) User-Based Collaborative Filtering:**
+### **a) User-Based Collaborative Filtering:**
 
 Find users similar to you and Recommend items they liked.
 
 Example:   
 “If User A and B both liked 5 similar movies, and User B liked Movie X, then recommend X to User A.”
 
-**b) Item-Based Collaborative Filtering:**
+### **b) Item-Based Collaborative Filtering:**
 
 Find items similar to what you liked and Recommend those to you
 
 **Example:**  
 	“People who bought this also bought that.”
 
-**3\. Hybrid Recommendation:**
+### **3\. Hybrid Recommendation:**
 
 Combines content-based and collaborative filtering.
 
@@ -77,6 +77,6 @@ We also have advanced techniques to solve this like:
 * **RMSE/MAE** for rating predictions  
 * Offline vs Online evaluation (A/B Testing)
 
-**Conclution:**
+### **Conclution:**
 
  Recommendation engines play a crucial role in enhancing user experience in almost every modern platform we interact with. Understanding the fundamentals from content-based to deep learning methods  provides a strong foundation for both academic and industry projects.
